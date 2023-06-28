@@ -1,5 +1,6 @@
 #    The team name: Happy Recycling
-![Smile](https://pvtimes.com/wp-content/uploads/2021/09/15619200_web1_GettyImages-1269469549.jpg)
+<img src="https://pvtimes.com/wp-content/uploads/2021/09/15619200_web1_GettyImages-1269469549.jpg>
+
 #    The members of the team and their roles:
 - Production: Brenda Carmen Huynh
 - Project Manager: Brandon Voung

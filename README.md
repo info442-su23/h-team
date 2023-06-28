@@ -1,5 +1,4 @@
-#    The team name: 
-## Happy Recycling
+#    The team name: Happy Recycling
 
 #    The members of the team and their roles:
 - Production: Brenda Carmen Huynh

@@ -7,7 +7,7 @@
 - Dev: Arty Timchenko
 
 #    The mission statement:
-## Empower sustainability and responsible waste management
+Empower sustainability and responsible waste management
 #    The problem statement:
 
 **Problem from SDG: Goal 12: Responsible Consumption and Production**

@@ -37,7 +37,7 @@ Existing solutions and websites that target these common challenges in recycling
 
 - Group, C. M. E., & Smith, H. (2022, January 4). How improper waste disposal affects the environment. Clean Management Environmental Group, Inc. https://cleanmanagement.com/blog/how-improper-waste-disposal-affects-the-environment/ 
 
--Improper waste disposal: Effects on humans and the environment. Improper Waste Disposal: Effects on Humans & Environment. (2023, April 20). https://www.osha.com/blog/improper-waste-disposal 
+- Improper waste disposal: Effects on humans and the environment. Improper Waste Disposal: Effects on Humans & Environment. (2023, April 20). https://www.osha.com/blog/improper-waste-disposal 
 
 - Kinejara, A. (2022, December 7). Why do people not recycle anymore?. Reel. https://reelpaper.com/blogs/reel-talk/why-do-people-not-recycle-anymore
 

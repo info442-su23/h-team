@@ -1,5 +1,5 @@
 #    The team name: Happy Recycling
-<img src="https://pvtimes.com/wp-content/uploads/2021/09/15619200_web1_GettyImages-1269469549.jpg">
+<img src="https://pvtimes.com/wp-content/uploads/2021/09/15619200_web1_GettyImages-1269469549.jpg" width="500">
 
 #    The members of the team and their roles:
 - Production: Brenda Carmen Huynh

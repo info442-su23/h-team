@@ -20,31 +20,6 @@ Which ultimately exacerbates climate change and negatively impacts our sustainab
 Existing solutions and websites that target these common challenges in recycling mainly list the items that are recyclable and include basic questions and answers. Overall, the content may be there, but it is hard for users to navigate and understand the different types of items that can be recycled with very little images and photos. In addition, many websites do not provide recycling information and programs for certain locations, which is not useful for those who are in an unfamiliar area or individuals that are traveling.
 
 
-
-
-### Citations
-
-- Group, C. M. E., & Smith, H. (2022, January 4). How improper waste disposal affects the environment. Clean Management Environmental Group, Inc. https://cleanmanagement.com/blog/how-improper-waste-disposal-affects-the-environment/ 
-
-- Improper waste disposal: Effects on humans and the environment. Improper Waste Disposal: Effects on Humans & Environment. (2023, April 20). https://www.osha.com/blog/improper-waste-disposal 
-
-- Kinejara, A. (2022, December 7). Why do people not recycle anymore?. Reel. https://reelpaper.com/blogs/reel-talk/why-do-people-not-recycle-anymore
-
-- Lappin, T. (2023, June 28). Paper recycling. Flickr. https://www.flickr.com/photos/telstar/754414541 
-
-- McCue, D. (2019, April 21). Blame the signs: When recycling is confusing, we avoid it | CBC radio. CBCnews. https://www.cbc.ca/radio/checkup/blame-the-signs-when-recycling-is-confusing-we-avoid-it-1.5105683
-
-- Republic Services. (n.d.). https://www.republicservices.com/blog/5-signs-youre-an-aspirational-recycler
-
-- 13, R. C. |March, Cho, R., Piazza, J., Villegas, V., Gordon, D., B, E., kuemin, J., Anonymous, L, P., Doe, J., Barry, U, L., Thaler, J., Fecht, S., S, D., Forest, D., Bill, Smith, A. R., M, L., … sr, R. S. H. (2022, October 18). Recycling in the U.S. is broken. how do we fix it?. State of the Planet. https://news.climate.columbia.edu/2020/03/13/fix-recycling-america/ 
-
-- Thomas, D., Lattimer, D., & Wire, N. M. (2022, December 11). New survey discovers why most people don’t recycle. WATE 6 On Your Side. https://www.wate.com/news/new-survey-discovers-why-most-people-dont-recycle-2/#:~:text=But%20only%20about%2035%25%20of,a%20lack%20of%20convenient%20access
-
-- United Nations. (2022). - SDG indicators. United Nations. https://unstats.un.org/sdgs/report/2022/goal-12/
-
-- Wood, J. (2021, November 18). This is what stops people from recycling more, finds a global survey. World Economic Forum. https://www.weforum.org/agenda/2021/11/barriers-to-recycling-sustainability-survey/
-
-
 ## Solution Summary:
 This web application encourages better recycling practices and teaches people to recycle correctly. Statistics, information, and reminders will be presented in sections to help users learn the importance of recycling. The game is an interactive activity where users sort items into the correct recycling bin with labeled signs, this will help them learn from their mistakes and avoid improper recycling. There will be a page of information on special recycling cases that provides a list of items that many people think are recyclable, but really are not. In addition, we will provide users with external resources to special case items including contact information for users to reach out to for further information. In the end, users should feel better equiped to properly categorize items as garbage, recycling, or compost in order to improve responsible consumption and production.
 
@@ -124,5 +99,27 @@ User Interaction:
 - If a user clicks on an email link, it should allow users to send an email to the address.
 
 ## Stretch Goals
-- If our team has time, a stretch goal that we have in mind is to implement a functionality where users can look up recycling programs and rules by county. (FAQ page) 
+- If our team has time, a stretch goal that we have in mind is to implement a functionality where users can look up recycling programs and rules by county. (FAQ page)
+
+### Citations
+
+- Group, C. M. E., & Smith, H. (2022, January 4). How improper waste disposal affects the environment. Clean Management Environmental Group, Inc. https://cleanmanagement.com/blog/how-improper-waste-disposal-affects-the-environment/ 
+
+- Improper waste disposal: Effects on humans and the environment. Improper Waste Disposal: Effects on Humans & Environment. (2023, April 20). https://www.osha.com/blog/improper-waste-disposal 
+
+- Kinejara, A. (2022, December 7). Why do people not recycle anymore?. Reel. https://reelpaper.com/blogs/reel-talk/why-do-people-not-recycle-anymore
+
+- Lappin, T. (2023, June 28). Paper recycling. Flickr. https://www.flickr.com/photos/telstar/754414541 
+
+- McCue, D. (2019, April 21). Blame the signs: When recycling is confusing, we avoid it | CBC radio. CBCnews. https://www.cbc.ca/radio/checkup/blame-the-signs-when-recycling-is-confusing-we-avoid-it-1.5105683
+
+- Republic Services. (n.d.). https://www.republicservices.com/blog/5-signs-youre-an-aspirational-recycler
+
+- 13, R. C. |March, Cho, R., Piazza, J., Villegas, V., Gordon, D., B, E., kuemin, J., Anonymous, L, P., Doe, J., Barry, U, L., Thaler, J., Fecht, S., S, D., Forest, D., Bill, Smith, A. R., M, L., … sr, R. S. H. (2022, October 18). Recycling in the U.S. is broken. how do we fix it?. State of the Planet. https://news.climate.columbia.edu/2020/03/13/fix-recycling-america/ 
+
+- Thomas, D., Lattimer, D., & Wire, N. M. (2022, December 11). New survey discovers why most people don’t recycle. WATE 6 On Your Side. https://www.wate.com/news/new-survey-discovers-why-most-people-dont-recycle-2/#:~:text=But%20only%20about%2035%25%20of,a%20lack%20of%20convenient%20access
+
+- United Nations. (2022). - SDG indicators. United Nations. https://unstats.un.org/sdgs/report/2022/goal-12/
+
+- Wood, J. (2021, November 18). This is what stops people from recycling more, finds a global survey. World Economic Forum. https://www.weforum.org/agenda/2021/11/barriers-to-recycling-sustainability-survey/
 

@@ -4,7 +4,7 @@
 
 *People want to recycle but have a difficult time understanding and identifying what items can be actually recycled.*
 
-Problem description:
+### Problem description:
 
 Recycling is one of the easiest ways for us to work together to ensure that natural resources and energy are being saved and not going to waste. By reducing, reusing, and recycling correctly we can prevent environmental degradation, climate change, and landfill waste from occurring any further (SDG, 2022). There are a few challenges that make recycling difficult and unachievable for many. One of the biggest barriers that stops people from recycling is because they are unsure of what can be recycled. According to the World Economic Forum, SAP, and Qualtrics, the survey study revealed that many people felt confused when it comes to recycling. “Only about 35% of people actually recycle” (Thomas et. al, 2022). Recycling programs may be different since they vary from location to location. Due to these challenges, aspirational recycling easily occurs. 
 

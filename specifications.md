@@ -49,7 +49,7 @@ Existing solutions and websites that target these common challenges in recycling
 This web application encourages better recycling practices and teaches people to recycle correctly. Statistics, information, and reminders will be presented in sections to help users learn the importance of recycling. The game is an interactive activity where users sort items into the correct recycling bin with labeled signs, this will help them learn from their mistakes and avoid improper recycling. There will be a page of information on special recycling cases that provides a list of items that many people think are recyclable, but really are not. In addition, we will provide users with external resources to special case items including contact information for users to reach out to for further information. In the end, users should feel better equiped to properly categorize items as garbage, recycling, or compost in order to improve responsible consumption and production.
 
 ## Design:
-*Home page*
+#### *Home page*
 <img title="homescreen" alt="screenshot of happy recycling homescreen, includes mission statement" src="/img/home.png">
 
 Text and visual content:
@@ -63,11 +63,12 @@ Text and visual content:
 User interaction:
 - Users can explore other pages by using the navbar
 
-
-*Learn page*
-<img title="learn1" alt="Top third scroll of the learn page" src="/img/learn1.png">
-<img title="learn2" alt="Center of the learn page" src="/img/learn2.png">
-<img title="learn3" alt="Last third scroll of the learn page" src="/img/learn3.png">
+#### *Learn page*
+<p align="middle">
+<img title="learn1" alt="Top third scroll of the learn page" src="/img/learn1.png" width="320">
+<img title="learn2" alt="Center of the learn page" src="/img/learn2.png" width="320">
+<img title="learn3" alt="Last third scroll of the learn page" src="/img/learn3.png" width="320">
+</p>
 
 Text and visual content:
 - The Learn Page is a continuous page.
@@ -81,9 +82,12 @@ User interaction:
 - Users can explore other pages by navigating to the other tabs on the navigation bar by clicking on one of the 4 tabs.
 - Because this page is continuous, users will scroll through this page to explore and view the content on the learn page.
 
-*Game page*
-<img title="game1" alt="Start state of the game page" src="/img/game1.png">
-<img title="game2" alt="End state of the game page after user submits an answer" src="/img/game2.png">
+#### *Game page*
+<p align="middle">
+<img title="game1" alt="Start state of the game page" src="/img/game1.png" width="480">
+<img title="game2" alt="End state of the game page after user submits an answer" src="/img/game2.png" width="480">
+</p>
+
 
 Text and visual content:
 - The Game Page will be the main feature of our web application. This page contains an interactive activity where users drag and drop an item into one of the 3 bins (recycle, trash, and compost).
@@ -97,15 +101,15 @@ User interaction:
 - If the user clicks on “New Item”, it will generate a new item in the game.
 - If the user drags and places the item where it does not fall into one of the bins, the item will return to its original state (rectangular box with 6 blue dots).
 - If the user drops it in the correct bin, it will show all the right and wrong answers. In addition, the right answers should provide a description as to why it is correct.
-* For example: If the user drags the item into a correct bin:
--  Our logo will appear and say “Great Job”.
--  The bins that were incorrect will say “Incorrect!”
--  The bins that are correct will say “Correct!” and provide a description as to why it is.
+- For example: If the user drags the item into a correct bin:
+  -  Our logo will appear and say “Great Job”.
+  -  The bins that were incorrect will say “Incorrect!”
+  -  The bins that are correct will say “Correct!” and provide a description as to why it is.
 
 Error state:
 - If the user drags and drops it in the incorrect bin, then the item will return to its original state (rectangular box with 6 blue dots) where users can try again. An error message of “Incorrect” will appear in the incorrect bin that the user dragged and dropped it into.
 
-*Special cases page*
+#### *Special cases page*
 <img title="Special cases page" alt="Screenshot of the special cases page" src="/img/scases.png">
 
 Textual and visual content:

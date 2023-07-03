@@ -49,4 +49,76 @@ Existing solutions and websites that target these common challenges in recycling
 This web application encourages better recycling practices and teaches people to recycle correctly. Statistics, information, and reminders will be presented in sections to help users learn the importance of recycling. The game is an interactive activity where users sort items into the correct recycling bin with labeled signs, this will help them learn from their mistakes and avoid improper recycling. There will be a page of information on special recycling cases that provides a list of items that many people think are recyclable, but really are not. In addition, we will provide users with external resources to special case items including contact information for users to reach out to for further information. In the end, users should feel better equiped to properly categorize items as garbage, recycling, or compost in order to improve responsible consumption and production.
 
 ## Design:
+*Home page*
+<img title="homescreen" alt="screenshot of happy recycling homescreen, includes mission statement" src="/img/home.png">
+
+Text and visual content:
+- This page will be the home page of our website. In other words, the splash page, which is the information the user will first see before they use our website.
+- The textual content is very brief with an introduction of what our website’s purpose is. This will be done with a heading followed by a paragraph.
+- Right below the paragraph, it will have a “learn more” button that links to the Learn page.
+- There will be only 1 image on the right side of the screen. 
+- Content on this page will be static.
+- Overall, this page includes a navigation bar, 1 button, 1 image, 1 heading, and 1 paragraph.
+
+User interaction:
+- Users can explore other pages by using the navbar
+
+
+*Learn page*
+<img title="learn1" alt="Top third scroll of the learn page" src="/img/learn1.png">
+<img title="learn2" alt="Center of the learn page" src="/img/learn2.png">
+<img title="learn3" alt="Last third scroll of the learn page" src="/img/learn3.png">
+
+Text and visual content:
+- The Learn Page is a continuous page.
+- The “Recycling Statistics” section will include recycling facts and statistics. 
+- The “What can I….” sections will display images and text of which items are compost, trash or recyclable.
+- The Reduce, Reuse, and Recycle section will display images, recycling signs, with the words reduce, reuse, and recycle in between the images and the signs
+- Content on this page will be static.
+- Overall, this page includes a navigation bar and 5 sections: Recycling statistics, Waste/Compost/Recycling sections, and the reduce, reuse, recycle triad.
+
+User interaction:
+- Users can explore other pages by navigating to the other tabs on the navigation bar by clicking on one of the 4 tabs.
+- Because this page is continuous, users will scroll through this page to explore and view the content on the learn page.
+
+*Game page*
+<img title="game1" alt="Start state of the game page" src="/img/game1.png">
+<img title="game2" alt="End state of the game page after user submits an answer" src="/img/game2.png">
+
+Text and visual content:
+- The Game Page will be the main feature of our web application. This page contains an interactive activity where users drag and drop an item into one of the 3 bins (recycle, trash, and compost).
+- Above the 3 bins contains a rectangular box, this is where the items that can be dragged and dropped will be generated.
+- Next to the rectangular box, there is a button called “New Item”. 
+- Overall, this page includes a navigation bar, 3 bins with recycling signage, one button, a rectangle box where the item is being generated, messages for both correct and incorrect (error) that appears inside of the bins.
+
+User interaction:
+- Users can explore other pages by navigating to the other tabs on the navigation bar by clicking on one of the 4 tabs.
+- Users will be able to drag and drop the item to one of the 3 bins (recycle, trash, and compost) .
+- If the user clicks on “New Item”, it will generate a new item in the game.
+- If the user drags and places the item where it does not fall into one of the bins, the item will return to its original state (rectangular box with 6 blue dots).
+- If the user drops it in the correct bin, it will show all the right and wrong answers. In addition, the right answers should provide a description as to why it is correct.
+* For example: If the user drags the item into a correct bin:
+-  Our logo will appear and say “Great Job”.
+-  The bins that were incorrect will say “Incorrect!”
+-  The bins that are correct will say “Correct!” and provide a description as to why it is.
+
+Error state:
+- If the user drags and drops it in the incorrect bin, then the item will return to its original state (rectangular box with 6 blue dots) where users can try again. An error message of “Incorrect” will appear in the incorrect bin that the user dragged and dropped it into.
+
+*Special cases page*
+<img title="Special cases page" alt="Screenshot of the special cases page" src="/img/scases.png">
+
+Textual and visual content:
+- The Special Cases Page is a continuous page that describes items that are not recyclable. In addition, some items will have contact information such as phone numbers and email addresses for users to contact.
+- The images should be placed on the left. Item name should be centered. Details and descriptions of the item should be in a bulleted list.
+- Overall, this page includes a navigation bar, images, bulleted list, paragraphs, lines, and links. 
+
+User Interaction:
+- Users can explore other pages by navigating to the other tabs on the navigation bar by clicking on one of the 4 tabs.
+- Because this page is continuous, users will scroll through this page to explore and view the content on the special cases page.
+- If a user clicks on the phone number, it should allow users to make a phone call
+- If a user clicks on an email link, it should allow users to send an email to the address.
+
+## Stretch Goals
+- If our team has time, a stretch goal that we have in mind is to implement a functionality where users can look up recycling programs and rules by county. (FAQ page) 
 

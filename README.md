@@ -4,7 +4,7 @@
 #    The members of the team and their roles:
 - Product Designer: Brenda Huynh
 - Project Manager: Brandon Voung
-- Dev: Taylor Whitney Russon
+- Dev: Taylor Russon
 - Dev: Arty Timchenko
 
 #    The mission statement:

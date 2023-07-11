@@ -17,8 +17,7 @@
 1. A top-level heading that says “It’s our planet.”
 2. A paragraph that contains our mission statement
 3. “Learn more” button that links to the Learn page  
-4. A photo related to our mission statement such as sustainability and responsible waste management  
-5. Does not include sections  
+4. A photo related to our mission statement such as sustainability and responsible waste management
 
 ## *Learn page*
 ### Learn page is divided into 5 sections (top to bottom):

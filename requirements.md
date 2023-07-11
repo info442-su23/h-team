@@ -86,4 +86,4 @@
     - A level-three heading of the item name (Example: “batteries”, “light bulbs”, etc).
     - List elements of the special instructions to dispose of the item responsibly
     - List elements should be unordered (bullet points)
-    - If list elements contains emails or phone numbers, it should use the href = "mailto:" or "tel:" attribute
+    - List elements that contains emails or phone numbers should use the href = "mailto:" or "tel:" attribute

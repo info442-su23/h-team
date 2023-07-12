@@ -58,8 +58,9 @@
     - <sup> G2a.1 </sup> An image of the active game item
     - <sup> G2a.2 </sup> Description of the item below image
     - <sup> G2a.3 </sup> Kebab vector showing the card is manipulatable
-    - <sup> G2a.4 </sup> Card should increase its drop-shadow when clicked, and move with the cursor if the user clicks and drags.
-    - <sup> G2a.5 </sup> Card should snap back to its starting position unless dragged into the correct bin
+    - <sup> G2a.4 </sup> Card should increase its drop-shadow when clicked
+    - <sup> G2a.5 </sup> Card moves with the cursor if the user clicks and drags.
+    - <sup> G2a.6 </sup> Card should snap back to its starting position unless dragged into the correct bin
 2. <sup> G2b </sup> A button “new item” that once clicked changes the draggable card to the next active game item
 #### G3: “Drop bins” should contain:
 1. <sup> G3a </sup> Three responsive drop-bin sections
@@ -70,7 +71,7 @@
     - <sup> G3b.1 </sup> If the item is dropped into the correct bin, overlay a “Correct” header and paragraph about why the user is correct
     - <sup> G3b.2 </sup> Hold the active item until user clicks “new item” button
     - <sup> G3b.3 </sup> Populate the native land with brand mascot and “great job” message
-3. I<sup> G3c </sup> f bin detects an incorrect answer:
+3. <sup> G3c </sup> If bin detects an incorrect answer:
     - <sup> G3c.1 </sup> If the item is dropped into the incorrect bin, overlay an “incorrect” header
     - <sup> G3c.2 </sup> Automatically repopulate the draggable element back to its starting position
     - <sup> G3c.3 </sup> The bin should no longer function and the message should remain until the user clicks “new item”

@@ -86,3 +86,7 @@
     - <sup> S2c </sup> List elements of the special instructions to dispose of the item responsibly
     - <sup> S2d </sup> List elements should be unordered (bullet points)
     - <sup> S2e </sup> List elements that contains emails or phone numbers should use the href = "mailto:" or "tel:" attribute
+
+## *Non-functional requirements*
+1. <sup> N-f1 </sup> All text passes the WCAG color:contrast rating with at least a AA rating
+2. <sup> N-f2 </sup> All images have proper tags for screen reading accessibility

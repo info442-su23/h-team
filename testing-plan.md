@@ -53,7 +53,13 @@
 7. The tester will look at the fixed defect to ensure that the issue has been resolved.
 
 
+<p align="center">
+  <strong>Test navbar feature:</strong>
+</p>
 
+- **Context**: User opens happy recycling website and is on the homepage
+- **Action**: User clicks on "Learn" item in navigation bar 
+  - **Expect**: Website should change pages to the learn page and the "Learn" item in the nav bar should be underlined (Requirement N1b & N1c)
 
 ## *User acceptance testing script*
 ***<h3 style="text-align: center;">Test navbar feature:</h3>***

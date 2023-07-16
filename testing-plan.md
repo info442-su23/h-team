@@ -53,17 +53,6 @@
 7. The tester will look at the fixed defect to ensure that the issue has been resolved.
 
 
-## *User Acceptance Testing*
-
-<h3 align="center">Test Navbar Feature</h3>
-
-**Context:** User opens the Happy Recycling website and is on the homepage.
-
-**Action:** User clicks on the "Learn" item in the navigation bar.
-
-**Expectation:**
-- Website should change pages to the Learn page.
-- The "Learn" item in the nav bar should be underlined (Requirement N1b & N1c).
 
 
 ## *User acceptance testing script*

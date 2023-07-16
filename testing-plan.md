@@ -52,17 +52,11 @@
 6. The developer will then inform the tester and team to look at the issue again after it has been fixed.
 7. The tester will look at the fixed defect to ensure that the issue has been resolved.
 
-
-<p align="center">
-  <strong>Test navbar feature:</strong>
-</p>
-
-- Context: User opens happy recycling website and is on the homepage
-- Action: User clicks on "Learn" item in navigation bar 
-  - Expect: Website should change pages to the learn page and the "Learn" item in the nav bar should be underlined (Requirement N1b & N1c)
-
 ## *User acceptance testing script*
-***<h3 style="text-align: center;">Test navbar feature:</h3>***
+<h3 align="center">
+  <strong>Test navbar feature:</strong>
+</h3>
+
 - Context: User opens happy recycling website and is on the homepage
 - Action: User clicks on “Learn” item in navigation bar 
   - Expect: Website should change pages to the learn page and the learn item in the nav bar should be underlined (Requirement N1b & N1c)
@@ -73,7 +67,10 @@
 - Action: User clicks on “Home” item in navigation bar
   - Expect: Website should change pages to the Home page and the Home item in the nav bar should be underlined (Requirement N1b & N1c)
 
-***<h3 style="text-align: center;">Test Game feature Context 1:</h3>***
+<h3 align="center">
+  <strong>Test Game feature Context 1:</strong>
+</h3>
+
 - Context: User opens a happy recycling website and is on the game page. The current draggable item is a “pizza box”
 - Action: User drags “pizza box” to the recycle bin 
   - Expect: Overlays the “incorrect” header (Requirement G3c.1)
@@ -90,7 +87,10 @@
 - Action: User clicks on “New item” button
   - Expect: The draggable item changes to a “toothbrush”, which is the next active game item (Requirement G2b)
 
-***<h3 style="text-align: center;">Test Game feature Context 2:</h3>***
+<h3 align="center">
+  <strong>Test Game feature Context 2:</strong>
+</h3> 
+
 - Context: User opens a happy recycling website and is on the game page. The draggable item is a “pizza box”. User clicks on the “new item” button. The current draggable item is now a “toothbrush”
 - Action: User drags “toothbrush” item to the recycle bin 
   - Expect: Overlay the “correct” header and displays description as to why the user is correct (Requirement G3b.1)
@@ -108,7 +108,11 @@
   - Expect: The draggable item card changes to a “Egg Shells”, which is the next active game item (Requirement G2b)
 
 
-***<h3 style="text-align: center;">Test Game feature Context 3:</h3>***
+<h3 align="center">
+  <strong>Test Game feature Context 3:</strong>
+</h3>
+
+
 - Context: User is on a new game item for the compost bin, such as egg shells just after clicking “new item”
 - Action: User drags “Egg Shells” to the compost bin
   - Expect: Overlay the “correct” header and displays description as to why the user is correct (Requirement G3b.1)
@@ -116,20 +120,28 @@
   - The brand mascot and “great job” message will appear and be displayed on screen  (Requirement G3b.3)
 
 
-***<h3 style="text-align: center;">Test links in footer:</h3>***
+<h3 align="center">
+  <strong>Test links in footer:</strong>
+</h3>
+
 - Context: User opens happy recycling website and is on any of the pages
 - Action: User clicks on “Contact Us” item at the bottom of the page 
   - Expect: Email client will open a new email composition window with the recipient email addresses pre-populated.  (Requirement F1b)
 
 
-***<h3 style="text-align: center;">Test links and phone-numbers in Special Cases Page:</h3>***
+<h3 align="center">
+  <strong>Test links and phone-numbers in Special Cases Page:</strong>
+</h3>
+
 - Context: User opens happy recycling website and is on the special cases page 
 - Action: User clicks on “info@lightrecycle.org” 
   - Expect: Email client will open a new email composition window with the recipient email addresses pre-populated. (Requirement S2e)
 - Action: User clicks on “1-800-RECYCLE” 
   - Expect: The user’s laptop will ask the user to confirm the action before starting the call. (Requirement S2e)
 
-***<h3 style="text-align: center;">Test button on home page</h3>***
+<h3 align="center">
+  <strong>Test links and phone-numbers in Special Cases Page:</strong>Test button on home page</h3>
+  
 - Context: User opens happy recycling website and is on the home page
 - Action: User clicks on “Learn more” button
   -Expect: User will be redirected to the Learn Page. (Require ent )

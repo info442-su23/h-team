@@ -108,7 +108,7 @@
 
 
 <h3 align="center">
-  <strong>Test Game feature Context 3:</strong>
+  <strong>Test Game feature (Context 3):</strong>
 </h3>
 
 

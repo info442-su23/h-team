@@ -3,11 +3,11 @@
 ## *Types of Testing*
 ### Manual Acceptance Testing: 
 - User Interface/Navigation:
-  -  Test Navigation flow in website to ensure that users can switch between different tabs 
+  - Test Navigation flow in website to ensure that users can switch between different tabs 
   - Ensure and verify that all buttons and links are functional and accurate
   - Text, font, color, and headings are consistent and easy to read (text passes the WCAG color:contrast rating with at least a AA rating)
 - Game Functionality:
-  - Ensure that the game allows users to drag and drop items in the recycling bin
+  - Ensure that the game allows users to drag and drop items in the three bins (recycle, trash, and compost)
   - Test items with different scenarios (waste, compost, recycle) to ensure that it will be sorted in the correct bin 
   - Ensure that the game provides proper feedback to correct and incorrect drops. 
   - Ensure that any items dropped outside of the bin will return back to its starting position.
@@ -17,7 +17,7 @@
   - Should be clear and concise when it comes to explanations and recycling practices.
 - Special Recycling Cases:
   - Check details, facts, and contact information for each special case item to ensure it is accurate, which also includes the reasons as to why they can not be recycle
-  - Make sure external resources such as phone numbers and links direct users to the correct source and is accurate
+  - Make sure external resources such as phone numbers, emails, and links direct users to the correct source and is accurate
 - Accessibility:
   - All images are screen reader friendly and have proper tags 
 - multi-browser:

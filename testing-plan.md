@@ -41,7 +41,7 @@
 - When code for each issue is completed, developers will perform code testing on their own computer before deploying.
 - After hitting a milestone, all code should be deployed to production to allow for testing by the product designers.
 
-## *Defect management*
+## *Defect management protocol*
 1. If the tester finds a defect during testing at any time, they will document it right away by taking notes and screenshots of the defect 
 2. Tester will create an Issue to report the bug
 2. Tester will inform the project manager, so the issue can be prioritized to having it fixed

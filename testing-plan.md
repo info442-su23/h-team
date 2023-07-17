@@ -70,7 +70,7 @@
   <strong>Test Game feature (context 1):</strong>
 </h3>
 
-- **Context:** User opens happy recycling website and is on the game page. The current draggable item is a “pizza box”
+- Context: User opens happy recycling website and is on the game page. The current draggable item is a “pizza box”
 - Action: User drags “pizza box” item and drops it in to the recycle bin 
   - Expect: Overlays the “incorrect” header (Requirement G3c.1)
   - The draggable item/element (pizza box) returns back to its starting position (Requirement G3c.2)
@@ -125,7 +125,7 @@
 
 - Context: User opens happy recycling website and is on any of the pages
 - Action: User clicks on “Contact Us” item at the bottom of the page 
-  - Expect: Email client will open a new email composition window with the recipient email addresses (one or all of our team members emails) pre-populated.  (Requirement F1b)
+  - Expect: Email client will open a new email composition window with the recipient email addresses (vuongb@uw.edu, brendah8@uw.edu, twrusson@uw.edu, atimch@uw.edu) pre-populated.  (Requirement F1b)
 
 
 <h3 align="center">
@@ -144,4 +144,3 @@
 - Context: User opens happy recycling website and is on the home page
 - Action: User clicks on “Learn more” button
   - Expect: User will be redirected to the Learn Page. (Requirement H3)
-

@@ -11,9 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     background: #66B6E3;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .logo-name {
@@ -62,3 +62,12 @@ footer {
     color: #0b0b0b;
     font-size: 12px;
   }
+
+.foot-contact a {
+    text-decoration: none;
+    color: #0b0b0b;
+}
+
+.foot-contact a:hover {
+    text-decoration: underline;
+}

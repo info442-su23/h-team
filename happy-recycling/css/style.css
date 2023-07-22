@@ -56,7 +56,6 @@
 /* LEARN PAGE */
 h1 {
     color: #31AD3A;
-    display: flex;
     text-align: center;
     padding: 1rem;
 }
@@ -64,6 +63,8 @@ h1 {
 .stats-info {
     display: flex;
     align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 .stats-img {

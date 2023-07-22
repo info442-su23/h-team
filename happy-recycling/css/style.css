@@ -57,7 +57,7 @@
 h1 {
     color: #31AD3A;
     text-align: center;
-    padding: 1rem;
+    padding-top: 40px;
 }
 
 .stats-info {
@@ -71,6 +71,15 @@ h1 {
     width: 45%;
     height: 45%;
     padding: 20px;
+}
+
+
+.learn-ctr img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 25px;
 }
 
 

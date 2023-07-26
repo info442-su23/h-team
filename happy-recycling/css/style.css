@@ -53,6 +53,36 @@
 /* !! for navbar, I need to add in permanent underline when clicked on page */
 
 
+/* LEARN PAGE */
+h1 {
+    color: #31AD3A;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.stats-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.stats-img {
+    width: 45%;
+    height: 45%;
+    padding: 20px;
+}
+
+
+.learn-ctr img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 25px;
+}
+
+
 /* FOOTER */
 footer {
     padding: 1rem;

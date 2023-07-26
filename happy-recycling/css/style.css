@@ -54,7 +54,13 @@
 
 
 /* LEARN PAGE */
-h1 {
+.stats-learn h1 {
+    color: #31AD3A;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.learn-ctr h1 {
     color: #31AD3A;
     text-align: center;
     padding-top: 40px;

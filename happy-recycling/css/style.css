@@ -6,9 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* TOP NAVBAR */
 header {
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 

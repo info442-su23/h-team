@@ -114,6 +114,30 @@ main {
 }
 
 
+/* HOME PAGE CIRCLES */
+.circle-1 {
+    background: #E5EAF0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0px;
+    left: -100px;
+    z-index: -1;
+}
+
+.circle-2 {
+    background: #E5EAF0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: -50px;
+    right: -100px;
+    z-index: -1;
+}
+
+
 /* FOOTER */
 footer {
     padding: 1rem;

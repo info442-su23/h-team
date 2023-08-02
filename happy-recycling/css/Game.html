@@ -150,6 +150,16 @@
     background-color: green;
     border-radius: 10px;
 }
+.game-head-text h1 {
+  color: #31AD3A;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.game-head-text p {
+  text-align: center;
+  padding: 10px 0;
+}
 
   </style>
 </head>
@@ -180,9 +190,12 @@
     <script src="navbar.js"></script>
   </header>
 
+  <main>
+  <div class="game-head-text">
+    <h1>RECYCLE GAME</h1>
+    <p>Please drag and drop the item in the correct bin</p>
+  </div>
 
-  <h1>Recycle Game</h1>
-  <p>Please drag and drop the item in the correct bin</p>
   <div class="container">
   <div id="play-space">
     <div id="placeholder">
@@ -194,7 +207,8 @@
     </div>
     <button id="new-item">New Item</button>
   </div>
-</div>
+  </div>
+
   <div id="drop-bins">
     <div id="recycle-bin" class="drop-bin">
       <img class="bin-image" src="../components/recyclebin.jpg">
@@ -210,10 +224,10 @@
       <img class="bin-image" src="../components/compost.jpg">
       <p class="bin-description">Compost Bin</p>
     </div>
-    
   </div>
 
   <script src="../components/game.js"></script>
+  </main>
 
   <footer>
     <a><span>&copy;</span>INFO 442 Project -&nbsp</a>

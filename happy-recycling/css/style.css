@@ -9,8 +9,12 @@
 
 /* TOP NAVBAR */
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
+}
+
+main {
+    padding-top: 5rem;
 }
 
 .top-navbar {

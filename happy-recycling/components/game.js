@@ -8,8 +8,21 @@ window.onload = function() {
     var activeItemIndex = 0; // Index of the active game item
     // This part will be replaced with database
     var gameItems = [
-      { image: '../../img/cardboard.png', description: 'Pizza Box', correctBin: 'recycle' },
-      { image: '../../img/cheese.png', description: 'Burger', correctBin: 'compost' },
+    {"image":"../../img/bread.png", "description":"Bread", "correctBin":"compost"},
+    {"image":"../../img/cardboard.png", "description":"Cardboard", "correctBin":"recycle"},
+    {"image":"../../img/dentalfloss.png", "description":"Dental Floss", "correctBin":"trash"},
+    {"image":"../../img/eggshells.png", "description":"Egg Shells", "correctBin":"compost"},
+    {"image":"../../img/gloves.png", "description":"Used Gloves", "correctBin":"trash"},
+    {"image":"../../img/jug.png", "description":"Clean Plastic Jug", "correctBin":"recycle"},
+    {"image":"../../img/mask.png", "description":"Disposable Masks", "correctBin":"trash"},
+    {"image":"../../img/paper.png", "description":"Paper", "correctBin":"recycle"},
+    {"image":"../../img/papertowel.png", "description":"Used Paper Towels", "correctBin":"compost"},
+    {"image":"../../img/pizzabox.png", "description":"Greasy Pizza Box", "correctBin":"compost"},
+    {"image":"../../img/snackwrappers.png", "description":"Candy Wrappers", "correctBin":"trash"},
+    {"image":"../../img/soda.png", "description":"Empty Soda Can", "correctBin":"recycle"},
+    {"image":"../../img/vegetables.png", "description":"Vegetables", "correctBin":"compost"},
+    {"image":"../../img/waterbottle.png", "description":"Empty Plastic Bottle", "correctBin":"recycle"},
+    {"image":"../../img/wipes.png", "description":"Baby Wipes", "correctBin":"trash"}
     ];
   
     // Event listener for the "new item" button
@@ -30,6 +43,7 @@ document.getElementById('new-item').addEventListener('click', function() {
   // Increase the activeItemIndex to point to the next item
   activeItemIndex = (activeItemIndex + 1) % gameItems.length;
 
+  
   // Create the new card and add it to the placeholder
   createNewCard(); 
 });
@@ -79,11 +93,14 @@ function createNewCard() {
             event.dataTransfer.setData('text/plain', ''); // Required for dragging
             this.style.opacity = '0'; // Hide the card
             this.classList.add('dragged'); // Add the 'dragged' class
+            let messageContainer = document.querySelector(".message-container");
+  messageContainer.style.zIndex = "3";
         });
       
         card.addEventListener('dragend', function() {
             this.style.opacity = '1'; // Show the card again
             this.classList.remove('dragged'); // Remove the 'dragged' class
+            
         });
     }
     

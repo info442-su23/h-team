@@ -18,13 +18,16 @@
                 background: #f5f5f5;
             }
             .container {
+                padding: 150px 35px;
                 display: flex;
-                justify-content: space-evenly;
+                /* justify-content: space-evenly; */
                 align-items: center;
-                width: 80%;
+                /* width: 80%; */
             }
-            .text-content {
-                max-width: 50%;
+            .text-content h1 {
+                /* max-width: 50%; */
+                font-size: 3.5em;
+                color: #302D59;
             }
             .description {
                 font-size: 1.5em;
@@ -33,7 +36,7 @@
             .button {
                 display: inline-block;
                 color: white;
-                background-color: #e0260e;
+                background-color: #E24B5B;
                 padding: 15px 32px;
                 text-align: center;
                 text-decoration: none;
@@ -41,10 +44,14 @@
                 margin: 10px 2px;
                 cursor: pointer;
                 border-radius: 10px;
+                border: none;
             }
             .container img {
-                max-height: 500px;
-                max-width: 50%;
+                /* max-height: 500px;
+                max-width: 50%; */
+                width: 45%;
+                height: 45%;
+                /* padding: 40px; */
             }
         </style>
     </head>
@@ -84,6 +91,7 @@
             </div>
             <img src="../../img/homepage.png">
         </div>
+
         <script>
             document.getElementById("learnMoreButton").addEventListener("click", function() {
                 alert("Button clicked, functionality to be implemented!");

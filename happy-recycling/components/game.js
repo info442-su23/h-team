@@ -168,7 +168,7 @@ function createNewCard() {
           msgContainer.appendChild(correctMessage); // Add the message to the message container
           var placeholder = document.getElementById("placeholder");
           var img = document.createElement('img'); 
-          img.src = '../../img/earthlogo.png'; // replace with your image source
+          img.src = '../../img/Greatjob.png'; // replace with your image source
           img.alt = "Great job!"; // replace with your image alt text
           img.className = "gameItemSize"
           placeholder.innerHTML = ''; // Clear the placeholder

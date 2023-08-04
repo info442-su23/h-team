@@ -31,11 +31,20 @@
                 text-align: center;
                 margin: 20px 75px;
             }
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
             .item-container {
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                align-items: center;
                 margin: 10px 0;
                 width: 80%;
+                flex-direction: row;
             }
             .item-image {
                 flex: 0 0 auto;
@@ -87,6 +96,7 @@
     <main>
         <h1>SPECIAL CASES</h1>
         <p class="description">These items are considered "special cases" in recycling. If you find yourself throwing out any one of these items, learn how to recycle it correctly.</p>
+        <div class="wrapper">
         <div class="green-line"></div>
 
         <div class="item-container">
@@ -94,10 +104,11 @@
                 <img src="../../img/battery.png" alt="Battery image">
             </div>
             <div class="item-content">
+                <!-- BATTERIES -->
                 <h3>Recycling Batteries:</h3>
                 <ul>
                     <li>Do not place in trash or recycle bins</li>
-                    <li>Please call 1-800-RECYCLE (1-800-732-9253) or email <a href="mailto:1800recycle@ecy.wa.gov">1800recycle@ecy.wa.gov</a> to find your nearest recycling-drop off location</li>
+                    <li>Please call 1-800-RECYCLE <a href="tel:18007329254">(1-800-732-9253)</a> or email <a href="mailto:1800recycle@ecy.wa.gov">1800recycle@ecy.wa.gov</a> to find your nearest recycling-drop off location</li>
                     <li><a href="https://ecology.wa.gov/Regulations-Permits/Guidance-technical-assistance/Dangerous-waste-guidance/Common-dangerous-waste/Batteries#:~:text=If%20you%20are%20a%20household,%2D800%2DRECYCLE%20or%20Call2Recycle">Link</a></li>
                 </ul>
             </div>
@@ -108,6 +119,7 @@
             <div class="item-image">
                 <img src="../../img/lightbulb.png" >
             </div>
+            <!-- LIGHT BULBS -->
             <div class="item-content">
                 <h3>Lightbulbs:</h3>
                 <ul>
@@ -124,12 +136,13 @@
             <div class="item-image">
                 <img src="../../img/medications.png" >
             </div>
+            <!-- MEDICATIONS -->
             <div class="item-content">
                 <h3>Medications:</h3>
                 <ul>
                     <li>Medications should never be flushed down the toilet or thrown in trash</li>
                     <li>Medications should be brought to a secure medicine return site</li>
-                    <li>To obtain a mail-back supply for safe medication returns, please call (844) 482-5322</li>
+                    <li>To obtain a mail-back supply for safe medication returns, please call <a href="tel:8444825322">(844) 482-5322</a></li>
                     <li>Please visit <a href="https://medtakebackwashington.org">Link</a> to find locations that can help you properly dispose your unwanted medications</li>
                 </ul>
             </div>
@@ -140,13 +153,14 @@
             <div class="item-image">
                 <img src="../../img/electronics.png" >
             </div>
+            <!-- ELECTRONICS -->
             <div class="item-content">
                 <h3>Electronics:</h3>
                 <ul>
                     <li>E-Waste</li>
                     <li>Electronics contain valuable materials that can be recycled but also harmful substances</li>
                     <li>Many cities have e-waste collection events or facilities. IN Seattle, find locations to recycle the following electronics via the <a href="https://kingcounty.gov/depts/dnrp/solid-waste/programs/take-it-back/electronics.aspx">Take It Back Network</a></li>
-                    <li>Requests can be submitted online at <a href="www.seattle.gov/SpecialItems">Link</a> or you can call SPU Customer Service at (206) 684-3000 to schedule a special item pick up</li>
+                    <li>Requests can be submitted online at <a href="www.seattle.gov/SpecialItems">Link</a> or you can call SPU Customer Service at <a href="tel:2066843000">(206) 684-3000</a> to schedule a special item pick up</li>
                 </ul>
             </div>
         </div>
@@ -156,6 +170,7 @@
             <div class="item-image">
                 <img src="../../img/paint.png" >
             </div>
+            <!-- PAINTS/SOLVENTS -->
             <div class="item-content">
                 <h3>Paints and Solvents:</h3>
                 <ul>
@@ -173,7 +188,9 @@
                 </ul>
             </div>
         </div>
-        <div class="green-line"></div>
+        <div class="green-line"></div>            
+        </div>
+
     </main>
 
         <footer>

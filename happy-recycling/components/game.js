@@ -116,15 +116,15 @@ function createNewCard() {
       bin.appendChild(msgContainer);
       switch (bin.id) {
         case 'recycle-bin':
-          imgElement.src = '../../img/recyclesymbol.png'; // Set the image source
+          imgElement.src = '../../img/recyclebin.png'; // Set the image source
           imgElement.style.backgroundColor = "white";
           break;
         case 'compost-bin':
-          imgElement.src = '../../img/compostsymbol.png'; // Set the image source
+          imgElement.src = '../../img/compostbin.png'; // Set the image source
           imgElement.style.backgroundColor = "white";
           break;
         case 'trash-bin':
-          imgElement.src = '../../img/trashsymbol.png'; // Set the image source 
+          imgElement.src = '../../img/trashbin.png'; // Set the image source 
           imgElement.style.backgroundColor = "white";
           break;
       }
@@ -167,8 +167,13 @@ function createNewCard() {
           correctMessage.innerHTML = '<h2 class="correct">Correct</h2><p>You dropped the item into the correct bin.</p>';
           msgContainer.appendChild(correctMessage); // Add the message to the message container
           var placeholder = document.getElementById("placeholder");
-          placeholder.innerHTML = '<p class="correct">Great job!</p>';
-      } else {
+          var img = document.createElement('img'); 
+          img.src = '../../img/earthlogo.png'; // replace with your image source
+          img.alt = "Great job!"; // replace with your image alt text
+          img.className = "gameItemSize"
+          placeholder.innerHTML = ''; // Clear the placeholder
+          placeholder.appendChild(img); // Append the image to the placeholder
+        } else {
           var incorrectMessage = document.createElement('div');
           incorrectMessage.innerHTML = '<h2 class="incorrect">Incorrect</h2>';
           msgContainer.appendChild(incorrectMessage); // Add the message to the message container

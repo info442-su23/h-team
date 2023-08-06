@@ -58,8 +58,13 @@ main {
 }
 
 .navbar-links a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid white;
 }
+
+.navbar-links .page-link.active {
+    border-bottom: 2px solid white; /* You can adjust the color and thickness */
+}
+
 
 .hamburger {
     display: none;

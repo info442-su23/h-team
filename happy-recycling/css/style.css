@@ -144,7 +144,7 @@ main {
 
 
 /* FOOTER */
-footer {
+/* footer {
     padding: 1rem;
     display: flex;
     align-items: flex-end;
@@ -161,7 +161,29 @@ footer {
 
 .foot-contact a:hover {
     text-decoration: underline;
-}
+} */
+
+footer {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #0b0b0b;
+    font-size: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .foot-contact a {
+    text-decoration: none;
+    color: #0b0b0b;
+  }
+  
+  .foot-contact a:hover {
+    text-decoration: underline;
+  }
+
+
 
 
 /* MEDIA */

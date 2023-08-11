@@ -24,7 +24,15 @@ window.onload = function() {
     {"image":"../../img/waterbottle.png", "description":"Empty Plastic Bottle", "correctBin":"recycle"},
     {"image":"../../img/wipes.png", "description":"Baby Wipes", "correctBin":"trash"}
     ];
-  
+  // Fisher-Yates shuffle function
+  function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+  }
+gameItems = shuffle(gameItems);
     // Event listener for the "new item" button
 document.getElementById('new-item').addEventListener('click', function() {
   var placeholder = document.getElementById("placeholder");

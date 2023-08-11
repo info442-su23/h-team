@@ -24,13 +24,15 @@
       cursor: move;
       margin: auto;
       display: block;
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 200px;
     }
     .card img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      margin-bottom: 10px;
     }
     .card.clicked {
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
@@ -119,6 +121,7 @@
   font-size: 16px;  
   border-radius: 10px;  
   cursor: pointer;  
+  transform: translateY(-100px);
 }
 #new-item:hover {
   background-color: darkgreen; 
@@ -146,9 +149,12 @@
   padding: 10px 0;
 }
 .gameItemSize {
-  width:  200px;  
-  height: 200px; 
+  width:  150px;  
+  height: 150px; 
+  margin-bottom: 200px;
+  padding: 10px;
 }
+
   </style>
 </head>
 <body>

@@ -32,6 +32,7 @@ window.onload = function() {
   }
   return array;
   }
+  var points = 0;
 gameItems = shuffle(gameItems);
     // Event listener for the "new item" button
 document.getElementById('new-item').addEventListener('click', function() {
@@ -171,6 +172,8 @@ function createNewCard() {
         }
         // Can include additional interaction with item to describe why its correct
         if (isCorrect) {
+          points++;
+          document.getElementById('score').innerText = "Score: " + points;
           var correctMessage = document.createElement('div');
           correctMessage.innerHTML = '<h2 class="correct">Correct</h2><p>You dropped the item into the correct bin.</p>';
           msgContainer.appendChild(correctMessage); // Add the message to the message container

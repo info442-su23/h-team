@@ -26,7 +26,8 @@
       display: block;
       width: 150px;
       height: 150px;
-      margin-bottom: 200px;
+      margin-bottom: 20px;
+      
     }
     .card img {
       width: 100%;
@@ -151,10 +152,17 @@
 .gameItemSize {
   width:  150px;  
   height: 150px; 
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   padding: 10px;
 }
-
+.game-item-box {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 200px;
+}
   </style>
 </head>
 <body>
@@ -192,6 +200,7 @@
 
   <div class="container">
   <div id="play-space">
+    <div class="game-item-box">
     <div id="placeholder">
         <div id="card" class="card" draggable="true">
             <img src="../../img/cardboard.png" alt="Game Item 1">
@@ -199,6 +208,7 @@
             <span class="kebab">☰</span>
         </div>
     </div>
+  </div>
     <button id="new-item">New Item</button>
   </div>
   </div>

@@ -72,7 +72,7 @@ function createNewCard() {
     // Append the imgElement to the card
     card.appendChild(imgElement);
 
-    card.innerHTML = `<img src="${activeItem.image}" alt="Game Item"><p>${activeItem.description}</p><span class="kebab">☰</span>`;
+    card.innerHTML = `<img src="${activeItem.image}" alt="Game Item"><p>${activeItem.description}</p>`;
     placeholder.appendChild(card);
 
     // Add draggable events to the new card
